@@ -1,0 +1,334 @@
+
+
+body{
+	background-color: #eff0ee;
+	margin-top: 30px;
+}
+
+.navigation{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+ /* position: relative;*/
+}
+/*a .index{
+  margin-left: 160px;
+}*/
+
+footer{
+	margin: 60px;
+}
+
+/*darkestGray*/
+.mediumGray{
+  background-color: #a6acac;
+}
+
+.homeGrayBox{
+	background-color: #7d8181;
+}
+
+.creditPage, .aboutPage {
+  background-color: #7d8181;
+  color: #eff0ee;
+}
+.aboutPage h3, .creditPage h3, .aboutPage h2, .aboutPage h4{
+color: #eff0ee;
+}
+/*.save it{
+  #636363;
+}*/
+.aboutPage p{
+color: #eff0ee;
+font-size: 1.5em;
+font-family: Helvetica;
+font-weight: lighter;
+margin-left: 60px;
+margin-right: 60px;
+text-align: justify;
+}
+
+.creditPage p{
+color: #eff0ee;
+font-size: 1.5em;
+font-family: Helvetica;
+font-weight: lighter;
+margin-left: 60px;
+margin-right: 60px;
+
+}
+
+.collaborationInfo{
+  text-align: justify;
+}
+.collaborationInfo p{
+  margin-left: 15px;
+}
+
+h3.brittName{
+  text-indent: 250px;
+}
+h2.brittAbout, h4.brittAbout{
+  color: #eff0ee;
+
+}
+
+.artistRightGrayBox{
+  background-color: #7d8181;
+  width:50%;
+}
+.homeGrayBox li h5{
+text-align: left;
+color: white;
+/*font-weight: bold;*/
+/*line-height: .90em;*/
+}
+.homeGrayBox ul{
+padding-top: 15px;
+}
+.title20{
+	margin-top: -20px;
+}
+
+.title20, .titleCollaborations h1, .titleBookArt h1{
+	color: white;
+	margin-left: 10%;
+}
+
+h1.title20 {
+	font-size: 22vw;
+  font-family: "Archivo Black", "Helvetica", Helvetica, Arial, sans-serif;
+	line-height: 1em;
+}
+
+.titleCollaborations h1, .titleBookArt h1 {
+	font-size: 4.75vw;
+	line-height: 1em;
+font-family: "Archivo Black", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.titleCollaborations h1{
+	line-height: 1.5em;
+}
+
+
+h5{
+  font-size: 1.55em;
+}
+h5.bookMedia{
+line-height: 1em;
+}
+.bookMedia{
+  padding-top: 10px;
+}
+
+.container {
+    display: table;
+    table-layout: fixed;
+    width:90%;
+    height: 90%;
+    font-size: 0.75em;
+    background-color: #a6acac;
+}
+.col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.container .left{
+    width: 60%;
+}
+.container.right{
+    width: 40%;
+    background-color: #7d8181;
+}
+
+.showTitle{
+}
+.projectLinks h5{
+  color: #7d8181;
+  font-size: 1.5vw;
+  line-height: .75em;
+}
+.projectLinks {
+margin: 10% 0% 0% 10%;
+
+}
+
+.expandGray{
+    background: gray;
+    color:white;
+}
+
+.container .aboutProject{
+width:90%;
+}
+.aboutProjectPositioning{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+}
+.aboutProjectPositioning h3{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.aboutImage1 {
+float: right;
+padding-right: 20px;
+padding-bottom:5px;
+}
+.aboutImage2 {
+float: left;
+padding-right: 20px;
+padding-bottom:5px;
+}
+.iSpycollaborationStrip, .visitLocation{
+ margin-left: 60px;
+ color: #ffffff;
+ margin-right: 60px;
+}
+.iSpycollaborationStrip h5, .visitLocation h5{
+   color: #ffffff;
+   margin-bottom: -3px;
+}
+.imageStrip{
+float:left;
+margin-left: 10px;
+margin-right: 5px;
+}
+.imageCaption {
+  padding-bottom:5px;
+}
+
+.artistWork{
+  background-color: #636363;
+}
+ul li {
+ list-style: none;
+}
+
+  .clear{clear:both;}
+
+
+#logo h1 {
+    display: table;
+    table-layout: fixed;   
+    width: 100%;
+    /*height: 200px;*/
+    overflow: hidden;
+}
+.artistPic{
+  float:left;
+  padding:10px;
+}
+.artistName{
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.5em;
+}
+.bookName{
+  color: #636363;
+   font-size: 1.75em;
+   position: absolute;
+  margin-top: -25px;
+}
+.bookMedia{
+  color:#7d8181;
+  line-height:50px;
+}
+h5.terryMedia{
+  font-size: 100%;
+  color:#7d8181;
+   line-height:25px;
+}
+.photoCredit{
+  font-size: 50%;
+  float:right;
+   color: #363636;
+}
+
+.collaborationInfo{
+  color: #636363;
+  height:525px;
+  overflow:scroll;
+  margin-left: 10px;
+}
+
+::-webkit-scrollbar{
+width: 0px;}
+
+/*::-mozkit-scrollbar{
+  width:0px;
+}*/
+
+.artistBio{
+margin-top: 230px;
+  color: #636363;
+}
+.artistBioNoPic{
+  color: #636363;
+}
+
+.viewBookInstructions{
+  color: #363636;
+ text-align: center;
+ margin-bottom: 10px;
+ font-family: 'Archivo Black', sans-serif;
+}
+
+.artistShowCase{
+  padding: 30px; 
+  text-align: center;
+
+}
+
+
+.artistBookPositioning{
+    margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+ float:right;
+}
+
+
+.tabs dd > a {
+display: block;
+background: none;
+color: #7d8181;
+padding-top: 1rem;
+padding-right: 2rem;
+padding-bottom: 1.0625rem;
+padding-left: 2rem;
+font-family: "Archivo Black", "Helvetica", Helvetica, Arial, sans-serif;
+font-size: 1rem;
+}
+.tabs dd > a:hover {
+background: rgba(255, 0, 0, 0);
+color:white;
+}
+.navigation{
+
+  position: relative;
+}
+
+.previousArtist{
+  position: absolute;
+ /*border:2px solid red;*/
+ margin-left: -48%;
+ margin-top: 20%;
+/* clear: all;*/
+}
+
+.nextArtist{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 20%;
+}
+
+.tabs dd.active a {
+background: none;
+color: #636363;
+}
+
+.row {min-width:87% !important;}
+

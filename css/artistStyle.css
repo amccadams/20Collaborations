@@ -1,0 +1,36 @@
+h1.bookName{
+	font-size: 4em;
+	font-family: 'Archivo Black', sans-serif;
+	margin-left: 40px;
+
+}
+.artistPage h1{
+  color: white;
+}
+
+p{
+	margin:20px;
+}
+.bookInfo{
+	overflow: scroll;
+	height: 250px;
+}
+.artistContainer{
+	display: table;
+    table-layout: fixed;
+    width:90%;
+    height: 90%;
+    font-size: 0.75em;
+    background-color: #7d8181;
+    margin-left: 5%
+
+}
+
+.artistContainer .left{
+    width: 60%;
+     background-color: #a6acac
+ 
+}
+.projectLinks h5{
+	color: white;
+}
